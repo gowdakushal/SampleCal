@@ -33,14 +33,14 @@ public class Calculator {
                 result = num1 * num2;
                 System.out.println("The product is: " + result);
                 break;
-            /*case 4:
+            case 4:
                 if (num2 != 0) {
                     result = num1 / num2;
                     System.out.println("The quotient is: " + result);
                 } else {
                     System.out.println("Error: Cannot divide by zero!");
                 }
-                break;*/
+                break;
             default:
                 System.out.println("Invalid choice!");
         }
